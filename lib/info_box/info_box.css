@@ -1,0 +1,132 @@
+
+.info_box_container {
+	position:relative;
+	background-repeat:no-repeat;
+	margin:0px auto;
+	background-size: 100% 100%;
+    font-family: arial;
+	color:black;
+}
+.info_box_container .image {
+	width:312px;
+	height:200px; 
+	
+}
+.info_box_container .image img {
+    display: inline;
+    margin: 3px 0px 0px 3px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.info_box_container .header {
+	color:#EA6D22; 
+	font-weight: bold;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+.info_box_container .body {
+	height: 26px;
+    overflow: hidden;
+    font-size: 11px;
+    padding: 0px 20px;
+}
+.info_box_container .body .note {
+    font-size: 10px;
+    padding: 5px 0px;
+	color:#888;
+}
+.info_box_container .details {
+	color:#EA6D22; 
+	text-decoration:underline;
+	font-size: 11px;
+    padding: 0px 20px;
+}
+.info_box_container .actions {
+    position: absolute;
+	width:100%;
+    bottom: 5px;
+    left: 0;
+	font-size: 12px;
+}
+.info_box_container .actions .left {
+	position: relative;
+	display:inline-block;
+	padding: 6px 0px 0px 27px;
+	margin: 10px 3px 10px 10px;
+	background-image:url("../../src/img/button_bg_white_left.png");
+	color:#adadad;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width: 41px;
+	height: 20px;
+	font-weight: bold;
+}
+.info_box_container .actions .left .arrow {
+    position: absolute;
+    background-image: url("../../src/img/btn_ic_gray_left.png");
+    width: 12px;
+    height: 10px;
+    left: 6px;
+    bottom: 7px;
+}
+.info_box_container .actions .left:hover {
+	background-image:url("../../src/img/button_bg_orange_left.png");
+	color:#fff;
+	cursor:pointer;
+}
+.info_box_container .actions .right {
+	position: relative;
+	display:inline-block;
+	padding: 6px 18px 0px 9px;
+	margin: 10px 10px 10px 3px;
+	background-image:url("../../src/img/button_bg_white_right.png");
+	color:#adadad;
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width: 41px;
+	height: 20px;
+	font-weight: bold;
+}
+.info_box_container .actions .right:hover {
+	background-image:url("../../src/img/button_bg_orange_right.png");
+	color:#fff;
+	cursor:pointer;
+}
+.info_box_container .actions .right .arrow {
+	position: absolute;
+    background-image: url("../../src/img/btn_ic_gray_right.png");
+    width: 12px;
+    height: 10px;
+    right: 6px;
+    bottom: 7px;
+}
+
+.info_box_container .actions .find {
+	display:inline-block;
+	float: right;
+	position: relative;
+	display:inline-block;
+	padding: 6px 18px 0px 9px;
+	margin: 10px 10px 10px 3px;
+	background-image:url("../../src/img/button_bg_white_right.png");
+	color:#EA6D22; 
+	background-repeat:no-repeat;
+	background-size: 100% 100%;
+	width: 100px;
+	height: 20px;
+	text-decoration:none;
+	font-weight: bold;
+}
+.info_box_container .actions .find:hover {
+	background-image:url("../../src/img/button_bg_orange_right.png");
+	color:#fff;
+	cursor:pointer;
+}
+.info_box_container .actions .find .arrow {
+	position: absolute;
+    background-image: url("../../src/img/arrowSide.png");
+    width: 10px;
+    height: 10px;
+    right: 19px;
+    bottom: 8px;
+}
